@@ -22,6 +22,15 @@ $ php artisan migrate
 
 #### Supported Laravel Versions
 
+```
+// config/app.php
+'providers' => [
+        //...
+        Vsch\TranslationManager\TranslationServiceProvider::class,
+        Vsch\TranslationManager\ManagerServiceProvider::class,
+    ],
+```
+
 > * For Laravel 6.0 require: `"vsch/laravel-translation-manager": "~6.0"`
 >
 > * For Laravel 5.6 require: `"vsch/laravel-translation-manager": "~2.6"`
