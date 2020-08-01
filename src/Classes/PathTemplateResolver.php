@@ -6,7 +6,7 @@
  * Time: 11:17 PM
  */
 
-namespace Vsch\TranslationManager\Classes;
+namespace odran\TranslationManager\Classes;
 
 class PathTemplateResolver
 {
